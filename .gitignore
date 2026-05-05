@@ -1,0 +1,26 @@
+# Data files (too large for git)
+data/raw/
+data/processed/
+*.h5ad
+*.loom
+*.bam
+*.bw
+*.fastq.gz
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Logs
+logs/
+*.log
+*.err
+
+# Keep structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
